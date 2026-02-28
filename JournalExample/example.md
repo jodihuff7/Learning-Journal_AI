@@ -12,7 +12,7 @@ Date: July 31, 2025
 
 ## What is a Rubber Duck?
 
-![Rubber Duck](./assets/duck.jpg)
+![Rubber Duck](assets/duck.jpg)
 
 ## Direct Quote from Instructor
 
