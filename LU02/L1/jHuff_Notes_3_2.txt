@@ -1,0 +1,31 @@
+	• Superintelligence - definition of AI - OpenClaw was installed
+		○ Doing the job of managing emails
+		○ OpenClaw deleted all of emails
+			§ In charge of making super intelligence - gave AI complete access to their email
+	• Prompt Engineering
+		○ Search engine like google we call it a query
+			§ Prompt engineering - better the prompt, the better the output
+	• "You’re Holding it Wrong"
+		○ Covering the antennae with your hand when holding the phone
+			§ Apple's response was - you're holding it wrong
+		○ This AI didn't output what I wanted - response is - well you prompted it wrong
+		○ But sometimes, AI can't do what you are asking for
+	• Task
+		○ Persona - who is the AI?  (Marketer, teacher)
+		○ Format - output type (table, .CSV, List)
+	• Context
+		○ More detail the better
+			§ i.e. Ideas for gift under $30
+			§ Better - 5 ideas for a 29yo who loves winter sports and switched from snowboarding to skilling budget $30
+	• Reference
+		○ Provide additional data, examples, or specific ideas to guide AI
+	• Evaluate
+		○ Review the output
+			§ Does it meet the requirements?
+	• Iterate 
+		○ Feed errors back in
+		○ Add more detail or refine constraints
+	• If results are lacking - try these steps: 
+	• Try re-phrasing
+	• Introduce constraints to narrow down the results
+		- Provide boundaries
