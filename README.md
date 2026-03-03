@@ -20,16 +20,21 @@ If you have developed software before, most of this you can skip.
 
 Now that you have Git installed and a GitHub accounts lets work to get you a copy of the Journal starter.
 
-1. Fork this Repo. Call your fork what ever you like. You can make it public or pirate.
-   ![Click Fork](instructions/fork.webp)
-2. Click "Create Fork".
-3. You should be taken you **YOUR** git repo. Notice that it has your username in the URL now.
-4. Now clone **YOUR** forked repo. I will say this again **YOUR** repo. Start with getting the clone URL.
-   ![Clone URL](./instructions/cloneURL.webp)
-5. Now in your terminal. Run the following commands. Make sure you are in the folder you want to run the command. Your
-   URL will be different.  
-   ![Clone your code](./instructions/clone.webp)
-6. Open your Journal in your IDE of choice.
+1.  Fork this Repo. Call your fork what ever you like. You can make it public or pirate.
+    ![Click Fork](instructions/fork.webp)
+2.  Click "Create Fork".
+3.  You should be taken you **YOUR** git repo. Notice that it has your username in the URL now.
+4.  Now clone **YOUR** forked repo. I will say this again **YOUR** repo. Start with getting the clone URL.
+    ![Clone URL](instructions/cloneURL.webp)
+5.  Now in your terminal. Run the following commands. Make sure you are in the folder you want to run the command. Your
+    URL will be different.  
+    ![Clone your code](instructions/clone.webp)
+
+    ```bash
+    git clone https://github.com/IHCC-AI/CHANGE_THIS_URL.git
+    ```
+
+6.  Open your Journal in your IDE of choice.
 
 ## Markdown
 
@@ -43,11 +48,11 @@ or look at the example below.
 Each Unit make a new folder.
 Each lecture should have its own folder as well.
 Each lecture should have a markdown file `.md` and a `assets` folder for images (digram or reference).
-Here is an example of the file structure. 
+Here is an example of the file structure.
 
 ```
 LearningJournal
-│   README.md  
+│   README.md
 └───LU01
 │   └───L1
 │       │   journal.md
@@ -63,7 +68,7 @@ Do what makes the most sense to **YOU**.
 But there are guidelines and an MVP.
 You are required to include at least:
 
-- Rough outline of notes however that makes sense to you. 
+- Rough outline of notes however that makes sense to you.
 - Include at least one paragraph (3-5 sentences) of HUMAN written notes summarizing the lecture.
 - A digram / Flow chart / Mind Map
 
@@ -75,12 +80,12 @@ I recommend:
 - [Excalidraw](https://excalidraw.com/): **MAKE SURE TO EXPORT AND LINK THE IMAGE IN YOUR JOURNAL**. Link it as an image
   in your markdown.
 
-> 📓 Look [here](./JournalExample/example.md) for an example of a journal entry.
+> 📓 Look [here](JournalExample/example.md) for an example of a journal entry.
 
 ## Keeping your Journal Up to date
 
 Once you clone down your Journal and start editing it I will want to see it.
-So you need to upload (push) your new journal entry's up to GitHub (the remote).
+So you need to "push" your new journal entry's up to GitHub (the remote).
 To do this each lecture or unit you will need to follow the same flow.
 While learning Git is important you only need to know the following commands for this class.
 
@@ -92,15 +97,22 @@ git push
 
 > ⚠️ Each commit needs to have a custom and descriptive message.
 
+### DON'T DO THIS
+
+The main point of this journal is to learn Git.
+**DO NOT** use the "Add file" button on GitHub.com **USE GIT COMMANDS**.
+
+![Add Button](instructions/addButton.webp)
+
 ## Rubric
 
 Each Unit of this class I will look into your journal and give you participation credit.
 While this journal is yours to personalize there some guidelines.
 I will mostly be grading based on effort.
-The whole units notes will be looked at the end of the unit. 
+The whole units notes will be looked at the end of the unit.
 
 | Topic      | Task                                                                            | Points |
-|------------|---------------------------------------------------------------------------------|--------|
+| ---------- | ------------------------------------------------------------------------------- | ------ |
 | Retention  | How many of the topics covered are represented in the notes                     | 3pts   |
-| Completion | How well where the topics explored though the notes.                            | 3pts   | 
-| Creativity | How efficiently where digrams and other learning tools implemented in the notes | 4pts   | 
+| Completion | How well where the topics explored though the notes.                            | 3pts   |
+| Creativity | How efficiently where digrams and other learning tools implemented in the notes | 4pts   |
