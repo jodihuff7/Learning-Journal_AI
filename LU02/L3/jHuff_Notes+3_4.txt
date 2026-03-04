@@ -1,0 +1,30 @@
+	• RAG - Retrieval Augmented Generation
+		○ A lot of companies want to build their own AI
+			§ Most of the time it is better to use RAG
+			§ Get better results
+			§ Adding context to AI
+		○ Optimizing output of a large language model (LLM) so it references an authoritative knowledge base outside of its training data sources before generating a response
+		○ Prevents false information when AI doesn't know the answer
+			§ i.e. asking AI something not public knowledge
+		○ Create responses from data from sources not public knowledge to get Specific answers
+		○ Open model AI - some cost involved - including feeding data
+			§ Downsides - even if you trained a model on 'perfect' information
+				□ Influenced by data it knows and gathers
+					® Won't always get the same answer based on existing knowledge
+			§ Feeding data to ChatGPT which you do not own - data access concerns
+		○ Can weight data for authentic sources
+	• NotebookLM
+		○ Input the sources for your AI
+		○ Sunfish example
+	• Example for companies - used for chatbots
+		○ Case Example - Ford - Got ChatGPT and fed it the information about the cars, parts and sales
+	• Svelt - web framework - to build web pages from scratch
+		○ How do get our AI model new data without retraining?
+		○ Proposed standard - /llms.txt
+				□ Will get a long piece of data that AI can easily read
+				□ Companies don't favor this - it is not revenue generating
+		○ Tailwind - a company that makes money off selling templates and premium code for website development
+			§ With AI, this service is going away
+	• Why don’t we just train a smaller model on this data? 
+		○ Companies may move toward that as an option
+		○ We will look at smaller models trained to do a certain tasks
